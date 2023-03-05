@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.image_container {
+  flex-grow: 0;
+  margin-right: 20px;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex-grow: 1;
+}
+
+.time_container {
+  flex-grow: 2;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* material-theme/sys/light/secondary */
+  color: #4A6366;
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* material-theme/sys/light/outline */
+  color: #6F797A;
+}
+
+.divider {
+  /* material-theme/sys/light/outline-variant */
+  border: 1px solid #BFC8CA;
+}
