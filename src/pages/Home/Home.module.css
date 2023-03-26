@@ -1,0 +1,19 @@
+.container {
+  padding: 50px;
+}
+
+.templates {
+  /* material-theme/sys/light/inverse-on-surface */
+  background: #EFF1F1;
+}
+
+.templates .title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  /* material-theme/sys/light/on-secondary-container */
+  color: #051F22;
+}
